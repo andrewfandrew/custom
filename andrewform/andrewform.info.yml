@@ -1,5 +1,5 @@
-name: andrew
-description: A simple hello world module
+name: andrewform
+description: A module using the forms api
 core: 8.x
 package: Custom
 dependencies:
