@@ -1,6 +1,8 @@
-andrew_page:
-    pattern: '/andrew'
+andrewform.form:
+    path: '/andrewform-form'
     defaults:
-        _content: 'Drupal\andrew\Controller\AndrewController::andrewPage'
-        requirements:
-            _permission: 'view content'
+        _title: 'Andrewform form'
+        _form: '\Drupal\andrewform\Form\AndrewformForm'
+    requirements:
+        _permissions: 'access content'
+       
